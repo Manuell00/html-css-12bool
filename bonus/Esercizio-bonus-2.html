@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inserimento dei link -->
+    <link rel="stylesheet" href="../css/12bools.css">
+    <link rel="stylesheet" href="../css/style2.css">
+
+    <!-- Inserimento del title -->
+    <title>Bonus-Exercise-2</title>
+
+</head>
+
+<body>
+
+    <!-- Creo la mia prima riga per il TITLE -->
+    <div class="row">
+        <div class="col-12" id="title">
+            <h2>Nested</h2>
+        </div>
+    </div>
+
+    <!-- Creo la mia seconda riga contenente sia rettangoli blu che verdi -->
+    <div class="row nested">
+        <div class="col-8 blue middle">
+            <div class="col-3 green"></div>
+            <div class="col-6 green"></div>
+            <div class="col-3 green"></div>
+        </div>
+
+        <div class="col-4 blue middle">
+            <div class="col-6 green"></div>
+            <div class="col-6 green"></div>
+        </div>
+    </div>
+
+
+    <!-- Creo il title ALIGNMENT-->
+    <div class="row">
+        <div class="col-12" id="title">
+            <h2>Alignment</h2>
+        </div>
+    </div>
+
+    <!-- Creo la parte start,center,end -->
+    <div class="row">
+        <div class="col-6 blue">start</div>
+    </div>
+
+    <div class="row">
+        <div class="col-offset-3 col-6 blue">center</div>
+    </div>
+
+    <div class="row">
+        <div class="col-offset-6 col-6 blue">end</div>
+    </div>
+
+
+    <!-- Creo la parte top -->
+    <div class="row nested">
+        <div class="col-6 blue"></div>
+        <div class="col-6 top">
+            <div class="col-12 blue short">top</div>
+        </div>
+    </div>
+
+
+
+    <!-- Creo la parte middle -->
+    <div class="row nested">
+        <div class="col-6 blue"></div>
+        <div class="col-6 center">
+            <div class="col-12 blue short">middle</div>
+        </div>
+    </div>
+
+
+    <!-- Creo la parte bottom -->
+    <div class="row nested">
+        <div class="col-6 blue"></div>
+        <div class="col-6 flex-end">
+            <div class="col-12 blue short">bottom</div>
+        </div>
+    </div>
+
+
+
+    <!-- Creo il title justify content-->
+    <div class="row">
+        <div class="col-12" id="title">
+            <h2>Justify content</h2>
+        </div>
+    </div>
+
+    <div class="row short">
+        <div class="col-12">
+            <h3>Space Around</h3>
+        </div>
+    </div>
+
+    <div class="row nested">
+        <div class="col-12 blue space-a">
+            <div class="col-2 green"></div>
+            <div class="col-2 green"></div>
+            <div class="col-2 green"></div>
+        </div>
+    </div>
+
+    <div class="row short">
+        <div class="col-12">
+            <h3>Space Between</h3>
+        </div>
+    </div>
+
+    <div class="row nested">
+        <div class="col-12 blue space-b">
+            <div class="col-2 green"></div>
+            <div class="col-2 green"></div>
+            <div class="col-2 green"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
