@@ -1,0 +1,30 @@
+/* REGOLE GENERALI */
+
+/* Imposto un altezza predefinita per le mie row */
+.row {
+    height: 50px;
+
+}
+
+[class*="col"]{
+    display: flex;
+    align-items: center;
+}
+
+/* Definisco i contenitori blu */
+.blue {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Definisco un colore specifico alla row title */
+#title {
+    color: black;
+    background-color: white;
+}
